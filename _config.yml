@@ -9,4 +9,5 @@ facebook_username: devxoul
 github_username:  devxoul
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
+highlighter: pygments
