@@ -102,25 +102,6 @@ a {
 }
 
 
-
-/**
- * Blockquotes
- */
-blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
-
-    > :last-child {
-        margin-bottom: 0;
-    }
-}
-
-
-
 /**
  * Code formatting
  */
@@ -200,4 +181,15 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.button-back-wrap {
+    padding-bottom: $spacing-unit;
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 4px;
+    padding: 15px 30px;
 }
