@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "CocoaSeeds로 iOS 7 프로젝트에서 Swift 라이브러리 사용하기"
+description: iOS 7 프로젝트에서 Swift로 작성된 라이브러리 의존성 관리를 도와주는 CocoaSeeds를 개발하게 된 배경과 사용법에 대해 공유합니다.
 ---
 
 ## Cocoa 의존성 관리 도구와 Swift
