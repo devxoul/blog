@@ -17,10 +17,10 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
 }
 
 
@@ -77,15 +77,6 @@ li {
 
 
 /**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
-}
-
-
-
-/**
  * Links
  */
 a {
@@ -98,33 +89,6 @@ a {
 
     &:hover {
         color: $text-color;
-    }
-}
-
-
-/**
- * Code formatting
- */
-pre,
-code {
-    font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
-}
-
-code {
-    padding: 1px 5px;
-}
-
-pre {
-    padding: 8px 12px;
-    overflow-x: scroll;
-
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
     }
 }
 
@@ -183,13 +147,9 @@ pre {
     }
 }
 
-.button-back-wrap {
-    padding-bottom: $spacing-unit;
-}
-
 .button {
     display: inline-block;
-    border: 1px solid #999;
+    border: 1px solid $grey-color;
     border-radius: 4px;
-    padding: 15px 30px;
+    padding: 12px 36px;
 }

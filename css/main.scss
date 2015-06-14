@@ -4,25 +4,27 @@
 @charset "utf-8";
 
 
+// font sizes: 6 8 11 14 18 24 32 43 57
 
 // Our variables
 $base-font-family: 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
+$base-font-size:   18px;
+$small-font-size:  14px;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
+$text-color:       #404040;
+$background-color: #fff;
 $brand-color:      #666;
+$theme-color:      #3F5666;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    700px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
