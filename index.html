@@ -11,7 +11,7 @@ layout: default
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
         <p>{{ post.description }}</p>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="post-meta">{{ post.date | date: "%Y년 %m월 %d일" }}</span>
       </li>
     {% endfor %}
   </ul>
