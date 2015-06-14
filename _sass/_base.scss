@@ -83,13 +83,19 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
         color: $text-color;
     }
+}
+
+
+
+/**
+ * Rules
+ */
+
+hr {
+    background-color: $grey-color-light;
 }
 
 

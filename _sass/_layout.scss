@@ -185,14 +185,21 @@
     margin-bottom: 0;
     list-style: none;
 
-    p {
-        color: $grey-color;
+    li {
+        padding-bottom: $spacing-unit * 1.5;
+        margin-bottom: $spacing-unit * 1.5;
+        border-bottom: 1px $grey-color-light solid;
+
+        p {
+            color: $grey-color;
+            margin-bottom: 5px;
+        }
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $grey-color;
+    color: lighten($grey-color, 20%);
 }
 
 .post-link {
@@ -207,14 +214,14 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
-    padding-bottom: $spacing-unit + 10px;
+    padding-bottom: $spacing-unit;
     border-bottom: 1px solid $grey-color-light;
 }
 
 .post-title {
     font-size: 32px;
     line-height: 1.2;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .post-content {
