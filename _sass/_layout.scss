@@ -226,3 +226,24 @@
     text-align: center;
     margin-bottom: $spacing-unit;
 }
+
+
+
+/**
+ * Error Page
+ */
+
+.page-error {
+    text-align: center;
+
+    h1 {
+        font-size: 76px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 32px;
+        color: $grey-color;
+        margin-bottom: $spacing-unit * 1.5;
+    }
+}
