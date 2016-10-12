@@ -10,6 +10,4 @@ github_username:  devxoul
 
 # Build settings
 highlighter: rouge
-markdown: redcarpet
-redcarpet:
-  extensions: [footnotes]
+markdown: kramdown
