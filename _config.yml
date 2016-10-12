@@ -9,7 +9,7 @@ facebook_username: devxoul
 github_username:  devxoul
 
 # Build settings
-highlighter: pygments
+highlighter: rouge
 markdown: redcarpet
 redcarpet:
   extensions: [footnotes]
