@@ -60,3 +60,24 @@ Finally I got the expected result.
 ```swift
 Child().foo() // Child Foo (bar=Hello)
 ```
+
+I used this trick in subclassing `MoyaProvider` from [Moya](https://github.com/Moya/Moya) to log where the `request()` method is called.
+
+```swift
+class MyProvider<Target>: MoyaProvider<Target> where Target: TargetType {
+  @available(*, unavailable)
+  override func request(_ token: Target) -> Observable<Response> {
+    return super.request(token)
+  }
+
+  func request(
+    _ token: Target,
+    file: StaticString = #file,
+    function: StaticString = #function,
+    line: UInt = #line
+  ) -> Observable<Response> {
+    print("\(function):\(line) - REQUEST: \(token.method) \(token.path)")
+    super.request(token)
+  }
+}
+```
